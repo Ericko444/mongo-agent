@@ -1,0 +1,5 @@
+smolagents
+pymongo
+litellm
+jupyterlab
+python-dotenv
