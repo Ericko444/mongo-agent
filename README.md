@@ -26,3 +26,13 @@ The project is built around a hierarchical agent system:
     *   **Delivery Agent**: Manages shipping status. Its tool is `update_delivery_status`.
 
 The `manager` agent breaks down the main goal into sub-tasks, delegates each to the appropriate agent, and synthesizes their results to complete the overall objective.
+
+## 💡 Future Improvements & Contributing
+
+This project serves as a POC and could be extended : 
+
+* ⌛ **Develop a UI**: Build a web interface (e.g., with Flask or FastAPI and React) to submit orders and view their status in real-time.
+
+* ⌛ **Add More Agents**: Introduce a NotificationAgent to email customers or a ReportingAgent to generate daily sales summaries.
+
+* ⌛ **Add More Tools**: Add more complex tools, such as checking for fraudulent orders.
